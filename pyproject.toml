@@ -16,6 +16,9 @@ seaborn = "^0.13.2"
 matplotlib = "^3.9.2"
 
 
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
